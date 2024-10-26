@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#xylophone {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.xylo-button {
+    width: 50px;
+    height: 200px;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.key-C { background-color: #FF6666; } /* Красный */
+.key-D { background-color: #FFCC66; } /* Оранжевый */
+.key-E { background-color: #FFFF66; } /* Желтый */
+.key-F { background-color: #66FF66; } /* Зеленый */
+.key-G { background-color: #66CCFF; } /* Голубой */
+.key-A { background-color: #6666FF; } /* Синий */
+.key-B { background-color: #CC66FF; } /* Фиолетовый */
+
+.xylo-button:hover {
+    opacity: 0.8;
+}
+
